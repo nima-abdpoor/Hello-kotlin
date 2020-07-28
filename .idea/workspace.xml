@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="704d161b-c5cd-42c6-8323-1296cd2bd253" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testkotlin/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" />
-    </list>
+    <list default="true" id="704d161b-c5cd-42c6-8323-1296cd2bd253" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -83,7 +78,7 @@
       <workItem from="1589902173017" duration="3272000" />
       <workItem from="1595865486066" duration="3759000" />
       <workItem from="1595870852170" duration="3375000" />
-      <workItem from="1595919198259" duration="9747000" />
+      <workItem from="1595919198259" duration="9812000" />
     </task>
     <task id="LOCAL-00001" summary="person data class and finding the oldest one if we have the age data.">
       <created>1595867739757</created>
@@ -106,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595948482836</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Class definition">
+      <created>1595949833409</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1595949833409</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -116,29 +118,30 @@
     <MESSAGE value="person data class and finding the oldest one if we have the age data." />
     <MESSAGE value="function" />
     <MESSAGE value="combination of variables and function" />
-    <option name="LAST_COMMIT_MESSAGE" value="combination of variables and function" />
+    <MESSAGE value="Class definition" />
+    <option name="LAST_COMMIT_MESSAGE" value="Class definition" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="390" y="40" key="CommitChangelistDialog2" timestamp="1595949809882">
+    <state x="390" y="40" key="CommitChangelistDialog2" timestamp="1595949831970">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="390" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1595949809882" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1595949774378">
+    <state x="390" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1595949831970" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1595949840131">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1595949774378" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1595949774378">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1595949840131" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1595949840131">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1595949774378" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1595949774378">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1595949840131" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1595949840130">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1595949774378" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1595949774378">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1595949840130" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1595949840131">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1595949774378" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1595949840131" />
     <state x="277" y="89" key="SettingsEditor" timestamp="1589903722302">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
