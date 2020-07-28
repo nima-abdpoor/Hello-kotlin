@@ -77,7 +77,7 @@
       <workItem from="1589902173017" duration="3272000" />
       <workItem from="1595865486066" duration="3759000" />
       <workItem from="1595870852170" duration="3375000" />
-      <workItem from="1595919198259" duration="2560000" />
+      <workItem from="1595919198259" duration="8435000" />
     </task>
     <task id="LOCAL-00001" summary="person data class and finding the oldest one if we have the age data.">
       <created>1595867739757</created>
@@ -86,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595867739757</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="function">
+      <created>1595923444472</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595923444472</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -94,29 +101,30 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="person data class and finding the oldest one if we have the age data." />
-    <option name="LAST_COMMIT_MESSAGE" value="person data class and finding the oldest one if we have the age data." />
+    <MESSAGE value="function" />
+    <option name="LAST_COMMIT_MESSAGE" value="function" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="390" y="40" key="CommitChangelistDialog2" timestamp="1595867737365">
+    <state x="390" y="40" key="CommitChangelistDialog2" timestamp="1595923442453">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="390" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1595867737365" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1595923171881">
+    <state x="390" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1595923442453" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1595947178915">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1595923171881" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1595923171881">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1595947178915" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1595947178915">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1595923171881" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1595923171880">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1595947178915" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1595947178914">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1595923171880" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1595923171881">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1595947178914" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1595947178915">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1595923171881" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1595947178915" />
     <state x="277" y="89" key="SettingsEditor" timestamp="1589903722302">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -125,10 +133,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1595919488473" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595923407744">
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595948455762">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1595923407744" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1595948455762" />
     <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1595870988920">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

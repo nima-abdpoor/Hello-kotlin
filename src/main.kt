@@ -21,9 +21,44 @@ fun main(args: Array<String>) {
     fun typeInferenceMax(a : Int, b : Int)  = if (a>b) a else b
 
 
+    //variable
+    val statement = "hi, this is my first variable"
+    val question2 : Int = 42;
+    val question3 : Int
+    question3 = 20
+    val double  = 7.6e2
+    val float  = 7.6e2f
+    //println(double+2)
 
-    println(max(2, 1))
-    println(Block_Body_Max(2, 1))
-    println(typeInferenceMax(2,1))
+    fun isoddoreven(i : Int) : String{
+        val messege : String
+        if (i%2 == 0)
+            messege = "even"
+        else
+            messege ="odd"
+        return messege
+    }
+
+
+    //println(isoddoreven(3))
+
+
+    fun sayHello(s : String  ? = null): String{
+        val name : String;
+            if(s !=null){
+                 name  = s
+            }
+        else name = "Kotlin"
+        return name
+    }
+    println("Hello, ${sayHello("mehdi")}")
+    println("Hello, ${sayHello("nima\n\n")}")
+    println("Hello, ${sayHello("kotlin\n")}\n${sayHello()}")
+
+
+
+//    println(max(2, 1))
+//    println(Block_Body_Max(2, 1))
+//    println(typeInferenceMax(2,1))
 }
 
