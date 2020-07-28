@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="704d161b-c5cd-42c6-8323-1296cd2bd253" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/main.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/testkotlin/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/testkotlin/MainKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +44,11 @@
     <property name="settings.editor.selected.configurable" value="preferences.general" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\projects\testkotlin\src\main" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <module name="testkotlin" />
@@ -51,7 +57,7 @@
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="MAIN_CLASS_NAME" value="main.MainKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -77,7 +83,7 @@
       <workItem from="1589902173017" duration="3272000" />
       <workItem from="1595865486066" duration="3759000" />
       <workItem from="1595870852170" duration="3375000" />
-      <workItem from="1595919198259" duration="8435000" />
+      <workItem from="1595919198259" duration="9747000" />
     </task>
     <task id="LOCAL-00001" summary="person data class and finding the oldest one if we have the age data.">
       <created>1595867739757</created>
@@ -93,7 +99,14 @@
       <option name="project" value="LOCAL" />
       <updated>1595923444472</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="combination of variables and function">
+      <created>1595948482836</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1595948482836</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -102,29 +115,30 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="person data class and finding the oldest one if we have the age data." />
     <MESSAGE value="function" />
-    <option name="LAST_COMMIT_MESSAGE" value="function" />
+    <MESSAGE value="combination of variables and function" />
+    <option name="LAST_COMMIT_MESSAGE" value="combination of variables and function" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="390" y="40" key="CommitChangelistDialog2" timestamp="1595923442453">
+    <state x="390" y="40" key="CommitChangelistDialog2" timestamp="1595949809882">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="390" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1595923442453" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1595947178915">
+    <state x="390" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1595949809882" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1595949774378">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1595947178915" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1595947178915">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1595949774378" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1595949774378">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1595947178915" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1595947178914">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1595949774378" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1595949774378">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1595947178914" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1595947178915">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1595949774378" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1595949774378">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1595947178915" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1595949774378" />
     <state x="277" y="89" key="SettingsEditor" timestamp="1589903722302">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -133,10 +147,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1595919488473" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595948455762">
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1595949784786">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1595948455762" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1595949784786" />
     <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1595870988920">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
