@@ -1,5 +1,7 @@
 package main
-import Regex
+
+import java.lang.Exception
+
 fun main(args: Array<String>) {
     //    val regex = Regex();
 //    //containmatchin
@@ -61,12 +63,72 @@ fun main(args: Array<String>) {
 //    println(main.person.ismarried)
 
     val Rectangle = Rectangle(20, 21)
-    println(Rectangle.isSquare)
+    //println(Rectangle.isSquare)
 
 
 //    println(max(2, 1))
 //    println(Block_Body_Max(2, 1))
 //    println(typeInferenceMax(2,1))
+
+
+    //ENUM
+    println(Color.Green)
+    println(Color.Blue.rgb())
+    fun getMnemonic(color: Color):String {
+        return when (color) {
+            Color.Red -> "Rechard"
+            Color.Orange -> "Of"
+            Color.Yellow -> "York"
+            Color.Green -> "Gave"
+            Color.Blue -> "Battle"
+            Color.Indigo -> "In"
+            Color.Violet -> "Vain"
+        }
+    }
+    println(getMnemonic(Color.Blue))
+
+    fun getWarmth(color: Color) : String{
+        return when(color){
+            Color.Orange,Color.Red,
+            Color.Yellow ->"Warm"
+            Color.Green -> "neutral"
+            Color.Blue,Color.Indigo,Color.Violet -> "cold"
+        }
+    }
+    println(getWarmth(Color.Yellow))
+
+    //less code , easy read, easy write
+    fun Mix(color1 : Color,color2: Color)=
+        when(setOf<Color>(color1,color2)){
+            setOf(Color.Red,Color.Yellow) -> "ORANGE"
+            setOf(Color.Yellow,Color.Blue) -> "GREEN"
+            setOf(Color.Blue,Color.Violet) -> "INDIGO"
+            else ->throw Exception("Dirty Color!!")
+        }
+    //println(Mix(Color.Yellow,Color.Red))
+
+    //more code,optimized,harder to read
+    fun OptimizedMix(color1: Color,color2: Color)=
+        when{
+            (color1 == Color.Red && color2 ==Color.Yellow)
+                    || (color1==Color.Yellow && color2==Color.Red) -> "ORANGE"
+            (color1 == Color.Yellow && color2 ==Color.Blue)
+                    || (color1==Color.Blue && color2==Color.Yellow) -> "GREEN"
+            (color1 == Color.Violet && color2 ==Color.Blue)
+                    || (color1==Color.Blue && color2==Color.Violet) -> "INDIGO"
+            else -> throw Exception("Dirty Color!!")
+        }
+    println(OptimizedMix(Color.Blue,Color.Yellow))
+
+
+}
+
+enum class Color(val r: Int, val g: Int, val b: Int) {
+    Red(255, 0, 0), Blue(0, 0, 255), Orange(255, 165, 0), Yellow(255, 255, 0),
+    Green(0, 255, 0), Indigo(75, 0, 135), Violet(238, 130, 238);
+
+    fun rgb() = (r * 256 + g) * 256 + b;
+
 }
 
 class person(name: String, ismarried: Boolean) {
