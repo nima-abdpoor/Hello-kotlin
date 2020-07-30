@@ -1,6 +1,8 @@
 package main
 
+import java.awt.image.renderable.RenderContext
 import java.lang.Exception
+import java.util.*
 
 fun main(args: Array<String>) {
     //    val regex = Regex();
@@ -74,7 +76,7 @@ fun main(args: Array<String>) {
     //ENUM
     println(Color.Green)
     println(Color.Blue.rgb())
-    fun getMnemonic(color: Color):String {
+    fun getMnemonic(color: Color): String {
         return when (color) {
             Color.Red -> "Rechard"
             Color.Orange -> "Of"
@@ -87,39 +89,88 @@ fun main(args: Array<String>) {
     }
     println(getMnemonic(Color.Blue))
 
-    fun getWarmth(color: Color) : String{
-        return when(color){
-            Color.Orange,Color.Red,
-            Color.Yellow ->"Warm"
+    fun getWarmth(color: Color): String {
+        return when (color) {
+            Color.Orange, Color.Red,
+            Color.Yellow -> "Warm"
             Color.Green -> "neutral"
-            Color.Blue,Color.Indigo,Color.Violet -> "cold"
+            Color.Blue, Color.Indigo, Color.Violet -> "cold"
         }
     }
     println(getWarmth(Color.Yellow))
 
     //less code , easy read, easy write
-    fun Mix(color1 : Color,color2: Color)=
-        when(setOf<Color>(color1,color2)){
-            setOf(Color.Red,Color.Yellow) -> "ORANGE"
-            setOf(Color.Yellow,Color.Blue) -> "GREEN"
-            setOf(Color.Blue,Color.Violet) -> "INDIGO"
-            else ->throw Exception("Dirty Color!!")
+    fun Mix(color1: Color, color2: Color) =
+        when (setOf<Color>(color1, color2)) {
+            setOf(Color.Red, Color.Yellow) -> "ORANGE"
+            setOf(Color.Yellow, Color.Blue) -> "GREEN"
+            setOf(Color.Blue, Color.Violet) -> "INDIGO"
+            else -> throw Exception("Dirty Color!!")
         }
     //println(Mix(Color.Yellow,Color.Red))
 
     //more code,optimized,harder to read
-    fun OptimizedMix(color1: Color,color2: Color)=
-        when{
-            (color1 == Color.Red && color2 ==Color.Yellow)
-                    || (color1==Color.Yellow && color2==Color.Red) -> "ORANGE"
-            (color1 == Color.Yellow && color2 ==Color.Blue)
-                    || (color1==Color.Blue && color2==Color.Yellow) -> "GREEN"
-            (color1 == Color.Violet && color2 ==Color.Blue)
-                    || (color1==Color.Blue && color2==Color.Violet) -> "INDIGO"
+    fun OptimizedMix(color1: Color, color2: Color) =
+        when {
+            (color1 == Color.Red && color2 == Color.Yellow)
+                    || (color1 == Color.Yellow && color2 == Color.Red) -> "ORANGE"
+            (color1 == Color.Yellow && color2 == Color.Blue)
+                    || (color1 == Color.Blue && color2 == Color.Yellow) -> "GREEN"
+            (color1 == Color.Violet && color2 == Color.Blue)
+                    || (color1 == Color.Blue && color2 == Color.Violet) -> "INDIGO"
             else -> throw Exception("Dirty Color!!")
         }
-    println(OptimizedMix(Color.Blue,Color.Yellow))
+    //println(OptimizedMix(Color.Blue,Color.Yellow))
 
+    //while and do while
+    var variable = 1
+    while (variable != 10) {
+        //println(variable)
+        variable++;
+    }
+    do {
+        //println(variable)
+        variable++
+    } while (variable != 12)
+
+    //for
+    for (i in 100 downTo 20 step 3) {
+        //println(i)
+    }
+
+    for (i in 0..10) {
+    //    println(i)
+    }
+
+    val binaryReps =TreeMap<Char,String>()
+    for (c in 'A'..'Z'){
+        var binary = Integer.toBinaryString(c.toInt())
+        binaryReps[c] = binary
+    }
+    for ((letter,binary) in binaryReps){
+    //    println("$letter = $binary")
+    }
+    val list = arrayListOf<String>("10","11","101")
+    for ((index,element) in list.withIndex()){
+        //println("$index = $element")
+    }
+    //in and !in
+    fun isLetter(c: Char) = c in 'A'..'Z' || c in 'a'..'z'
+    fun isNotDigit(c:Char) = c !in '0'..'9'
+
+//    println(isNotDigit('8'))
+////    println(isLetter('A'))
+////    println(isNotDigit('a'))
+
+    fun Recognize(c : Char) =
+        when(c){
+            in 'a'..'z' -> "small letter"
+            in 'A'..'Z' -> "capital letter"
+            in '0'..'9' -> "Digit"
+            else ->throw Exception("fuck off!")
+        }
+
+    //println(Recognize('9'))
 
 }
 
