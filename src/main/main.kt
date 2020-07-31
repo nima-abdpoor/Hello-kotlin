@@ -1,5 +1,6 @@
 package main
 
+import jdk.internal.joptsimple.internal.Strings
 import java.awt.image.renderable.RenderContext
 import java.lang.Exception
 import java.util.*
@@ -48,7 +49,6 @@ fun main(args: Array<String>) {
 
 
     //println(isoddoreven(3))
-
 
     fun sayHello(s: String? = null): String {
         val name: String;
@@ -140,47 +140,47 @@ fun main(args: Array<String>) {
     }
 
     for (i in 0..10) {
-    //    println(i)
+        //    println(i)
     }
 
-    val binaryReps =TreeMap<Char,String>()
-    for (c in 'A'..'Z'){
+    val binaryReps = TreeMap<Char, String>()
+    for (c in 'A'..'Z') {
         var binary = Integer.toBinaryString(c.toInt())
         binaryReps[c] = binary
     }
-    for ((letter,binary) in binaryReps){
-    //    println("$letter = $binary")
+    for ((letter, binary) in binaryReps) {
+        //    println("$letter = $binary")
     }
-    val list = arrayListOf<String>("10","11","101")
-    for ((index,element) in list.withIndex()){
+    val list = arrayListOf<String>("10", "11", "101")
+    for ((index, element) in list.withIndex()) {
         //println("$index = $element")
     }
     //in and !in
     fun isLetter(c: Char) = c in 'A'..'Z' || c in 'a'..'z'
-    fun isNotDigit(c:Char) = c !in '0'..'9'
+    fun isNotDigit(c: Char) = c !in '0'..'9'
 
 //    println(isNotDigit('8'))
 ////    println(isLetter('A'))
 ////    println(isNotDigit('a'))
 
-    fun Recognize(c : Char) =
-        when(c){
+    fun Recognize(c: Char) =
+        when (c) {
             in 'a'..'z' -> "small letter"
             in 'A'..'Z' -> "capital letter"
             in '0'..'9' -> "Digit"
-            else ->throw Exception("fuck off!")
+            else -> throw Exception("fuck off!")
         }
 
     //println(Recognize('9'))
-    fun division(number1: Int,number2:Int) =
+    fun division(number1: Int, number2: Int) =
         try {
 
-            number1/number2
-        }catch (e : java.lang.ArithmeticException){
+            number1 / number2
+        } catch (e: java.lang.ArithmeticException) {
             null
         }
 
-    println(division(1,0))
+    //println(division(1,0))
 }
 
 enum class Color(val r: Int, val g: Int, val b: Int) {
@@ -205,6 +205,31 @@ class Rectangle(val height: Int, val width: Int) {
     //or
     //val isSquare: Boolean = (height == width)
 
+}
+
+class Collections {
+    val strings = setOf("one", "two", "three", "for")
+    val numbers = listOf(1, 2, 3)
+    val map = hashMapOf("one" to 1, "Two" to 2, "three" to 3)
+    fun print() {
+        var collection = Collections()
+        println(collection.strings.javaClass)
+        println(collection.numbers.javaClass)
+        println(collection.map.javaClass)
+        println(collection.strings.last())
+        println(collection.numbers.max())
+        for (v in collection.map.values.sorted())
+            println(v)
+    }
+
+    fun <T> jointoString(
+        collection: Collection<T>
+        ,separator: String = ", "
+        , prefix: String = ""
+        , postfix: String = ""
+    ): String {
+        return ""
+    }
 }
 
 

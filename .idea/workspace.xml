@@ -84,7 +84,7 @@
       <workItem from="1595919198259" duration="9812000" />
       <workItem from="1596096662552" duration="4706000" />
       <workItem from="1596117853600" duration="2144000" />
-      <workItem from="1596178605085" duration="639000" />
+      <workItem from="1596178605085" duration="5148000" />
     </task>
     <task id="LOCAL-00001" summary="person data class and finding the oldest one if we have the age data.">
       <created>1595867739757</created>
@@ -128,7 +128,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596120006453</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Exception Handling">
+      <created>1596179401221</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1596179401221</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,33 +148,34 @@
     <MESSAGE value="Class definition" />
     <MESSAGE value="enum class and when expression" />
     <MESSAGE value="while and do while&#10;for loop&#10;in and !in &#10;combination of in and when" />
-    <option name="LAST_COMMIT_MESSAGE" value="while and do while&#10;for loop&#10;in and !in &#10;combination of in and when" />
+    <MESSAGE value="Exception Handling" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception Handling" />
   </component>
   <component name="WindowStateProjectService">
     <state x="381" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596097959749">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="381" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.30.1536.834@0.30.1536.834" timestamp="1596097959749" />
-    <state x="390" y="40" key="CommitChangelistDialog2" timestamp="1596120003948">
+    <state x="390" y="30" key="CommitChangelistDialog2" timestamp="1596179388413">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="390" y="40" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1596120003948" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596179261144">
+    <state x="390" y="30" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1596179388413" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596205344487">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1596179261144" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596179261143">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1596205344487" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1596205344483">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1596179261143" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596179261143">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1596205344483" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1596205344481">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1596179261143" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596179261144">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1596205344481" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1596205344485">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1596179261144" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1596205344485" />
     <state x="277" y="89" key="SettingsEditor" timestamp="1589903722302">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -176,10 +184,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1596178756811" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596179326474">
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596206666953">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1596179326474" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1596206666953" />
     <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1595870988920">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
