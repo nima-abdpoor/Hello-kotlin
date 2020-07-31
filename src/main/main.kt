@@ -3,6 +3,7 @@ package main
 import java.awt.image.renderable.RenderContext
 import java.lang.Exception
 import java.util.*
+import kotlin.time.measureTime
 
 fun main(args: Array<String>) {
     //    val regex = Regex();
@@ -171,7 +172,15 @@ fun main(args: Array<String>) {
         }
 
     //println(Recognize('9'))
+    fun division(number1: Int,number2:Int) =
+        try {
 
+            number1/number2
+        }catch (e : java.lang.ArithmeticException){
+            null
+        }
+
+    println(division(1,0))
 }
 
 enum class Color(val r: Int, val g: Int, val b: Int) {
