@@ -1,7 +1,5 @@
 package main
 
-import jdk.internal.joptsimple.internal.Strings
-import java.awt.image.renderable.RenderContext
 import java.lang.Exception
 import java.util.*
 import kotlin.time.measureTime
@@ -181,6 +179,23 @@ fun main(args: Array<String>) {
         }
 
     //println(division(1,0))
+    fun <T> Collection<T>.JoinToString(
+        separator: String
+        , prefix: String = ""
+        ,postfix: String = ""
+    ) :String {
+        val result = StringBuilder(prefix)
+        for((index,element) in this.withIndex()){
+            if (index>0) result.append(separator)
+            result.append(element)
+        }
+        result.append(postfix)
+        return result.toString()
+    }
+    val mylist = arrayListOf<Int>(1,2,3)
+//    println(mylist)
+//    println(mylist.JoinToString("_","Start: "," Finished!"))
+
 }
 
 enum class Color(val r: Int, val g: Int, val b: Int) {
@@ -224,12 +239,16 @@ class Collections {
 
     fun <T> jointoString(
         collection: Collection<T>
-        ,separator: String = ", "
+        , separator: String = ", "
         , prefix: String = ""
         , postfix: String = ""
     ): String {
         return ""
     }
+}
+
+class JoinToString {
+
 }
 
 
