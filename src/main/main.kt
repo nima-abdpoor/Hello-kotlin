@@ -2,7 +2,6 @@ package main
 
 import java.lang.Exception
 import java.util.*
-import kotlin.time.measureTime
 
 fun main(args: Array<String>) {
     //    val regex = Regex();
@@ -195,6 +194,8 @@ fun main(args: Array<String>) {
     val mylist = arrayListOf<Int>(1,2,3)
 //    println(mylist)
 //    println(mylist.JoinToString("_","Start: "," Finished!"))
+    var reg =  regex()
+    reg.split("12.345-6.A")
 
 }
 
