@@ -1,9 +1,15 @@
 package main
 
+import main.Interface.Button
 import java.lang.Exception
 import java.util.*
-
+fun click(){
+    val button  = Button()
+    button.click()
+    button.showOff()
+}
 fun main(args: Array<String>) {
+    click()
     //    val regex = Regex();
 //    //containmatchin
 //    println(regex.containsmathin("A", "asdfaslfj"))
