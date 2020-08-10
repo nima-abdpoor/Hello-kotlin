@@ -1,6 +1,4 @@
-package main.Interface
-
-import main.Interface.Clickable
+package root.main.Interface
 
 class Button: Clickable,Focusable {
     override fun click() {

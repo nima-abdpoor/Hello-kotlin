@@ -1,4 +1,4 @@
-package main.Interface
+package root.main.Interface
 
 interface Clickable {
     fun click()

@@ -1,6 +1,6 @@
-package main
+package root.main
 
-import main.Interface.Button
+import root.main.Interface.Button
 import java.lang.Exception
 import java.util.*
 fun click(){
@@ -8,7 +8,7 @@ fun click(){
     button.click()
     button.showOff()
 }
-fun main(args: Array<String>) {
+ fun main(args: Array<String>) {
     click()
     //    val regex = Regex();
 //    //containmatchin
@@ -64,9 +64,9 @@ fun main(args: Array<String>) {
 //    println("Hello, ${sayHello("nima\n\n")}")
 //    println("Hello, ${sayHello("kotlin\n")}\n${sayHello()}")
 
-//    val main.person = main.person("nima",false)
-//    println(main.person.name)
-//    println(main.person.ismarried)
+//    val root.main.person = root.main.person("nima",false)
+//    println(root.main.person.name)
+//    println(root.main.person.ismarried)
 
     val Rectangle = Rectangle(20, 21)
     //println(Rectangle.isSquare)

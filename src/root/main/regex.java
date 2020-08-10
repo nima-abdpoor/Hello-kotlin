@@ -1,4 +1,4 @@
-package main;
+package root.main;
 
 public class regex {
     public void split(String regex){
