@@ -1,6 +1,7 @@
 package root.main
 
 import root.main.Interface.Button
+import root.main.classes.Outer
 import java.lang.Exception
 import java.util.*
 fun click(){
@@ -9,7 +10,9 @@ fun click(){
     button.showOff()
 }
  fun main(args: Array<String>) {
-    click()
+    //click()
+//     val inner = Outer.inner
+//     inner.inner3
     //    val regex = Regex();
 //    //containmatchin
 //    println(regex.containsmathin("A", "asdfaslfj"))

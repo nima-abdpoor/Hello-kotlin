@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="704d161b-c5cd-42c6-8323-1296cd2bd253" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/root/Root.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/root/class2/class2.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/root/main/classes/A.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/root/main/classes/ACB.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/root/main/classes/B.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/root/main/classes/C.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/root/main/classes/F.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/root/main/classes/G.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/root/main/classes/InternalClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/root/main/classes/Outer.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Interface/Button.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main/Interface/Button.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Interface/Clickable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main/Interface/Clickable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/Interface/Focusable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main/Interface/Focusable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main/regex.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/META-INF/testkotlin.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/F.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main/classes/F.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +107,7 @@
       <workItem from="1596697052166" duration="1911000" />
       <workItem from="1596715805062" duration="1568000" />
       <workItem from="1596811981705" duration="104000" />
-      <workItem from="1597040070739" duration="1532000" />
+      <workItem from="1597040070739" duration="8705000" />
     </task>
     <task id="LOCAL-00001" summary="person data class and finding the oldest one if we have the age data.">
       <created>1595867739757</created>
@@ -197,7 +186,14 @@
       <option name="project" value="LOCAL" />
       <updated>1596555769967</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="access modifiers in kotlin">
+      <created>1597041944576</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1597041944576</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,7 +211,8 @@
     <MESSAGE value="adding methods to other peoples classes : extension functions and properties." />
     <MESSAGE value="usage of regex.java :|" />
     <MESSAGE value="working with interface and multiple implementing from an interface and overriding same method." />
-    <option name="LAST_COMMIT_MESSAGE" value="working with interface and multiple implementing from an interface and overriding same method." />
+    <MESSAGE value="access modifiers in kotlin" />
+    <option name="LAST_COMMIT_MESSAGE" value="access modifiers in kotlin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1597040576645">
@@ -230,10 +227,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="548" y="99" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1597041302889" />
-    <state x="390" y="30" key="CommitChangelistDialog2" timestamp="1596555764995">
+    <state x="321" y="30" key="CommitChangelistDialog2" timestamp="1597041940458">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="390" y="30" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1596555764995" />
+    <state x="321" y="30" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1597041940458" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596555838988">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -262,10 +259,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1597040115913" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597041846950">
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597082237360">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1597041846950" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1597082237308" />
     <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1595870988920">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
