@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="704d161b-c5cd-42c6-8323-1296cd2bd253" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/root/main/classes/Outer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/root/main/classes/Expr.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/META-INF/testkotlin.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/main/classes/F.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main/classes/F.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/Regex.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +105,8 @@
       <workItem from="1596697052166" duration="1911000" />
       <workItem from="1596715805062" duration="1568000" />
       <workItem from="1596811981705" duration="104000" />
-      <workItem from="1597040070739" duration="8705000" />
+      <workItem from="1597040070739" duration="8833000" />
+      <workItem from="1597219827148" duration="1653000" />
     </task>
     <task id="LOCAL-00001" summary="person data class and finding the oldest one if we have the age data.">
       <created>1595867739757</created>
@@ -193,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597041944576</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="nested and inner classes">
+      <created>1597082342394</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1597082342452</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,7 +218,8 @@
     <MESSAGE value="usage of regex.java :|" />
     <MESSAGE value="working with interface and multiple implementing from an interface and overriding same method." />
     <MESSAGE value="access modifiers in kotlin" />
-    <option name="LAST_COMMIT_MESSAGE" value="access modifiers in kotlin" />
+    <MESSAGE value="nested and inner classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="nested and inner classes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1597040576645">
@@ -227,10 +234,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="548" y="99" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1597041302889" />
-    <state x="321" y="30" key="CommitChangelistDialog2" timestamp="1597041940458">
+    <state x="321" y="30" key="CommitChangelistDialog2" timestamp="1597082337199">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="321" y="30" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1597041940458" />
+    <state x="321" y="30" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1597082337199" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1596555838988">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -251,18 +258,18 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="277" y="89" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1589903722302" />
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1596555791851">
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1597082360543">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1596555791851" />
-    <state x="460" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1597040115913">
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1597082360543" />
+    <state x="460" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1597219876555">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1597040115913" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597082237360">
+    <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1597219876555" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597236543194">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1597082237308" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1597236543194" />
     <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1595870988920">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
