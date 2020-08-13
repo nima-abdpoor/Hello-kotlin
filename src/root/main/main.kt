@@ -1,5 +1,7 @@
 package root.main
 
+import root.main.Construcotr.Constructor
+import root.main.Construcotr.TwitterUser
 import root.main.Interface.Button
 import root.main.classes.Outer
 import java.lang.Exception
@@ -11,6 +13,9 @@ fun click(){
 }
  fun main(args: Array<String>) {
     //click()
+     Construcotr()
+
+
 //     val inner = Outer.inner
 //     inner.inner3
     //    val regex = Regex();
@@ -81,89 +86,89 @@ fun click(){
 
 
     //ENUM
-    println(Color.Green)
-    println(Color.Blue.rgb())
-    fun getMnemonic(color: Color): String {
-        return when (color) {
-            Color.Red -> "Rechard"
-            Color.Orange -> "Of"
-            Color.Yellow -> "York"
-            Color.Green -> "Gave"
-            Color.Blue -> "Battle"
-            Color.Indigo -> "In"
-            Color.Violet -> "Vain"
-        }
-    }
-    println(getMnemonic(Color.Blue))
-
-    fun getWarmth(color: Color): String {
-        return when (color) {
-            Color.Orange, Color.Red,
-            Color.Yellow -> "Warm"
-            Color.Green -> "neutral"
-            Color.Blue, Color.Indigo, Color.Violet -> "cold"
-        }
-    }
-    println(getWarmth(Color.Yellow))
-
-    //less code , easy read, easy write
-    fun Mix(color1: Color, color2: Color) =
-        when (setOf<Color>(color1, color2)) {
-            setOf(Color.Red, Color.Yellow) -> "ORANGE"
-            setOf(Color.Yellow, Color.Blue) -> "GREEN"
-            setOf(Color.Blue, Color.Violet) -> "INDIGO"
-            else -> throw Exception("Dirty Color!!")
-        }
-    //println(Mix(Color.Yellow,Color.Red))
-
-    //more code,optimized,harder to read
-    fun OptimizedMix(color1: Color, color2: Color) =
-        when {
-            (color1 == Color.Red && color2 == Color.Yellow)
-                    || (color1 == Color.Yellow && color2 == Color.Red) -> "ORANGE"
-            (color1 == Color.Yellow && color2 == Color.Blue)
-                    || (color1 == Color.Blue && color2 == Color.Yellow) -> "GREEN"
-            (color1 == Color.Violet && color2 == Color.Blue)
-                    || (color1 == Color.Blue && color2 == Color.Violet) -> "INDIGO"
-            else -> throw Exception("Dirty Color!!")
-        }
-    //println(OptimizedMix(Color.Blue,Color.Yellow))
-
-    //while and do while
-    var variable = 1
-    while (variable != 10) {
-        //println(variable)
-        variable++;
-    }
-    do {
-        //println(variable)
-        variable++
-    } while (variable != 12)
-
-    //for
-    for (i in 100 downTo 20 step 3) {
-        //println(i)
-    }
-
-    for (i in 0..10) {
-        //    println(i)
-    }
-
-    val binaryReps = TreeMap<Char, String>()
-    for (c in 'A'..'Z') {
-        var binary = Integer.toBinaryString(c.toInt())
-        binaryReps[c] = binary
-    }
-    for ((letter, binary) in binaryReps) {
-        //    println("$letter = $binary")
-    }
-    val list = arrayListOf<String>("10", "11", "101")
-    for ((index, element) in list.withIndex()) {
-        //println("$index = $element")
-    }
-    //in and !in
-    fun isLetter(c: Char) = c in 'A'..'Z' || c in 'a'..'z'
-    fun isNotDigit(c: Char) = c !in '0'..'9'
+//    println(Color.Green)
+//    println(Color.Blue.rgb())
+//    fun getMnemonic(color: Color): String {
+//        return when (color) {
+//            Color.Red -> "Rechard"
+//            Color.Orange -> "Of"
+//            Color.Yellow -> "York"
+//            Color.Green -> "Gave"
+//            Color.Blue -> "Battle"
+//            Color.Indigo -> "In"
+//            Color.Violet -> "Vain"
+//        }
+//    }
+//    println(getMnemonic(Color.Blue))
+//
+//    fun getWarmth(color: Color): String {
+//        return when (color) {
+//            Color.Orange, Color.Red,
+//            Color.Yellow -> "Warm"
+//            Color.Green -> "neutral"
+//            Color.Blue, Color.Indigo, Color.Violet -> "cold"
+//        }
+//    }
+//    println(getWarmth(Color.Yellow))
+//
+//    //less code , easy read, easy write
+//    fun Mix(color1: Color, color2: Color) =
+//        when (setOf<Color>(color1, color2)) {
+//            setOf(Color.Red, Color.Yellow) -> "ORANGE"
+//            setOf(Color.Yellow, Color.Blue) -> "GREEN"
+//            setOf(Color.Blue, Color.Violet) -> "INDIGO"
+//            else -> throw Exception("Dirty Color!!")
+//        }
+//    //println(Mix(Color.Yellow,Color.Red))
+//
+//    //more code,optimized,harder to read
+//    fun OptimizedMix(color1: Color, color2: Color) =
+//        when {
+//            (color1 == Color.Red && color2 == Color.Yellow)
+//                    || (color1 == Color.Yellow && color2 == Color.Red) -> "ORANGE"
+//            (color1 == Color.Yellow && color2 == Color.Blue)
+//                    || (color1 == Color.Blue && color2 == Color.Yellow) -> "GREEN"
+//            (color1 == Color.Violet && color2 == Color.Blue)
+//                    || (color1 == Color.Blue && color2 == Color.Violet) -> "INDIGO"
+//            else -> throw Exception("Dirty Color!!")
+//        }
+//    //println(OptimizedMix(Color.Blue,Color.Yellow))
+//
+//    //while and do while
+//    var variable = 1
+//    while (variable != 10) {
+//        //println(variable)
+//        variable++;
+//    }
+//    do {
+//        //println(variable)
+//        variable++
+//    } while (variable != 12)
+//
+//    //for
+//    for (i in 100 downTo 20 step 3) {
+//        //println(i)
+//    }
+//
+//    for (i in 0..10) {
+//        //    println(i)
+//    }
+//
+//    val binaryReps = TreeMap<Char, String>()
+//    for (c in 'A'..'Z') {
+//        var binary = Integer.toBinaryString(c.toInt())
+//        binaryReps[c] = binary
+//    }
+//    for ((letter, binary) in binaryReps) {
+//        //    println("$letter = $binary")
+//    }
+//    val list = arrayListOf<String>("10", "11", "101")
+//    for ((index, element) in list.withIndex()) {
+//        //println("$index = $element")
+//    }
+//    //in and !in
+//    fun isLetter(c: Char) = c in 'A'..'Z' || c in 'a'..'z'
+//    fun isNotDigit(c: Char) = c !in '0'..'9'
 
 //    println(isNotDigit('8'))
 ////    println(isLetter('A'))
@@ -206,6 +211,14 @@ fun click(){
     var reg =  regex()
     reg.split("12.345-6.A")
 
+}
+
+fun Construcotr(){
+//    var const = Constructor(2)
+//    println(const.getParameter())
+//    const = Constructor(3,"we are in Zanjan")
+//    println(const.getParameter())
+    //val twitterUser = TwitterUser("abdpoor")
 }
 
 enum class Color(val r: Int, val g: Int, val b: Int) {

@@ -9,3 +9,4 @@ fun eval(e  : Expr):Int =
         is Expr.Num -> e.value
         is Expr.Sum -> eval(e.left) + eval(e.right)
     }
+ 
