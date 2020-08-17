@@ -3,7 +3,9 @@ package root.main
 import root.main.Construcotr.Constructor
 import root.main.Construcotr.TwitterUser
 import root.main.Interface.Button
+import root.main.classes.FacebookUser
 import root.main.classes.Outer
+import root.main.classes.PrivateUser
 import java.lang.Exception
 import java.util.*
 fun click(){
@@ -13,7 +15,8 @@ fun click(){
 }
  fun main(args: Array<String>) {
     //click()
-     Construcotr()
+     //Construcotr()
+     abstractpropert()
 
 
 //     val inner = Outer.inner
@@ -211,6 +214,11 @@ fun click(){
     var reg =  regex()
     reg.split("12.345-6.A")
 
+}
+
+fun abstractpropert() {
+    println(PrivateUser().nickname)
+    println(FacebookUser("ahmad").nickname)
 }
 
 fun Construcotr(){
