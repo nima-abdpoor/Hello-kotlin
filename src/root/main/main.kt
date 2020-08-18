@@ -4,10 +4,7 @@ import root.main.Construcotr.Constructor
 import root.main.Construcotr.TwitterUser
 import root.main.Construcotr.User
 import root.main.Interface.Button
-import root.main.classes.FacebookUser
-import root.main.classes.LengthCounter
-import root.main.classes.Outer
-import root.main.classes.PrivateUser
+import root.main.classes.*
 import java.lang.Exception
 import java.util.*
 fun click(){
@@ -20,6 +17,8 @@ fun click(){
      //Construcotr()
      //abstractpropert()
      //getterandsetter()
+     //toStringImplimentation()
+     equalsImplimentation()
 
 
 //     val inner = Outer.inner
@@ -217,6 +216,17 @@ fun click(){
     var reg =  regex()
     reg.split("12.345-6.A")
 
+}
+
+fun equalsImplimentation() {
+    val client = Client("nima" , 20)
+    val client2 = Client("ahmad ", 12)
+    println(client == client2)
+}
+
+fun toStringImplimentation() {
+    val client = Client("nima ",20)
+    println(client.toString())
 }
 
 fun getterandsetter() {
