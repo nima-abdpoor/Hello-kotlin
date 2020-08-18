@@ -18,7 +18,8 @@ fun click(){
      //abstractpropert()
      //getterandsetter()
      //toStringImplimentation()
-     equalsImplimentation()
+     //equalsImplimentation()
+     CopyOfClass()
 
 
 //     val inner = Outer.inner
@@ -215,6 +216,13 @@ fun click(){
 //    println(mylist.JoinToString("_","Start: "," Finished!"))
     var reg =  regex()
     reg.split("12.345-6.A")
+
+}
+
+fun CopyOfClass() {
+    val client = Client(name = "nima", postalCode = 20)
+    val copyclient = client.copy(PostalCode = 13)
+    println(copyclient)
 
 }
 

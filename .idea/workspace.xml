@@ -110,7 +110,7 @@
       <workItem from="1597219827148" duration="4616000" />
       <workItem from="1597331338061" duration="3911000" />
       <workItem from="1597655638534" duration="3346000" />
-      <workItem from="1597729577618" duration="3172000" />
+      <workItem from="1597729577618" duration="4796000" />
     </task>
     <task id="LOCAL-00001" summary="person data class and finding the oldest one if we have the age data.">
       <created>1595867739757</created>
@@ -245,7 +245,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597732351030</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="overriding hashCode method for Client.kt class.">
+      <created>1597733115797</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1597733115797</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +291,8 @@
     <MESSAGE value="working with getter and backing field." />
     <MESSAGE value="make the set of a value private to not change it from outside of class." />
     <MESSAGE value="overriding toString and equals method of the Client.kt class." />
-    <option name="LAST_COMMIT_MESSAGE" value="overriding toString and equals method of the Client.kt class." />
+    <MESSAGE value="overriding hashCode method for Client.kt class." />
+    <option name="LAST_COMMIT_MESSAGE" value="overriding hashCode method for Client.kt class." />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1597656918756">
@@ -299,42 +307,42 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="548" y="99" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1597332829335" />
-    <state x="321" y="30" key="CommitChangelistDialog2" timestamp="1597732349292">
+    <state x="321" y="30" key="CommitChangelistDialog2" timestamp="1597733114599">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="321" y="30" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1597732349292" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1597733050956">
+    <state x="321" y="30" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1597733114599" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1597734826873">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1597733050956" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1597733050956">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1597734826873" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1597734826872">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1597733050956" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1597733050956">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1597734826872" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1597734826872">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1597733050956" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1597733050956">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1597734826872" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1597734826873">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1597733050956" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1597734826873" />
     <state x="277" y="89" key="SettingsEditor" timestamp="1589903722302">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="277" y="89" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1589903722302" />
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1597730753977">
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1597733125825">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1597730753977" />
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1597733125825" />
     <state x="460" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1597655679792">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1597655679792" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597733063592">
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597734832166">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1597733063592" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1597734832166" />
     <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1595870988920">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
