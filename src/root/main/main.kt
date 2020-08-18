@@ -2,6 +2,7 @@ package root.main
 
 import root.main.Construcotr.Constructor
 import root.main.Construcotr.TwitterUser
+import root.main.Construcotr.User
 import root.main.Interface.Button
 import root.main.classes.FacebookUser
 import root.main.classes.Outer
@@ -16,7 +17,8 @@ fun click(){
  fun main(args: Array<String>) {
     //click()
      //Construcotr()
-     abstractpropert()
+     //abstractpropert()
+     getterandsetter()
 
 
 //     val inner = Outer.inner
@@ -214,6 +216,11 @@ fun click(){
     var reg =  regex()
     reg.split("12.345-6.A")
 
+}
+
+fun getterandsetter() {
+    val user = User("nima")
+    user.address = "tehran 17 SHAHRIVAR street"
 }
 
 fun abstractpropert() {
