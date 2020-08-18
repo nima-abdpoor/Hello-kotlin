@@ -5,6 +5,7 @@ import root.main.Construcotr.TwitterUser
 import root.main.Construcotr.User
 import root.main.Interface.Button
 import root.main.classes.FacebookUser
+import root.main.classes.LengthCounter
 import root.main.classes.Outer
 import root.main.classes.PrivateUser
 import java.lang.Exception
@@ -18,7 +19,7 @@ fun click(){
     //click()
      //Construcotr()
      //abstractpropert()
-     getterandsetter()
+     //getterandsetter()
 
 
 //     val inner = Outer.inner
@@ -219,8 +220,11 @@ fun click(){
 }
 
 fun getterandsetter() {
-    val user = User("nima")
-    user.address = "tehran 17 SHAHRIVAR street"
+//    val user = User("nima")
+//    user.address = "tehran 17 SHAHRIVAR street"
+    val lenth = LengthCounter()
+    lenth.addWord("nima!!")
+    println(lenth.counter)
 }
 
 fun abstractpropert() {
