@@ -8,4 +8,8 @@ class Client(private val name  :String ,private val postalCode : Int) {
             return false
         return name == other.name && postalCode == other.postalCode
     }
+
+    override fun hashCode(): Int {
+        return name.hashCode()*31 + postalCode.hashCode()
+    }
 }

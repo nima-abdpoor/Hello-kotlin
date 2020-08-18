@@ -219,8 +219,8 @@ fun click(){
 }
 
 fun equalsImplimentation() {
-    val client = Client("nima" , 20)
-    val client2 = Client("ahmad ", 12)
+    val client = Client("nima" , 20000)
+    val client2 = Client("nima", 20000)
     println(client == client2)
 }
 
