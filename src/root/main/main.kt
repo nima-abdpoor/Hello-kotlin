@@ -221,7 +221,9 @@ fun click(){
 }
 
 fun companionobject() {
-     A.foo()
+    // A.foo()
+    val person = Person.Loader.getname("nima")
+    println(person.name)
 }
 
 fun CopyOfClass() {
