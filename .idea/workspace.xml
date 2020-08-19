@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="704d161b-c5cd-42c6-8323-1296cd2bd253" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/root/main/Interface/JsonFactory.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/root/main/classes/person2.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/Interface/JsonFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main/classes/CompanionObjects/JsonFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main/classes/CompanionObjects/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/person2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main/classes/CompanionObjects/person2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +113,7 @@
       <workItem from="1597331338061" duration="3911000" />
       <workItem from="1597655638534" duration="3346000" />
       <workItem from="1597729577618" duration="6558000" />
-      <workItem from="1597816318077" duration="2086000" />
+      <workItem from="1597816318077" duration="2935000" />
     </task>
     <task id="LOCAL-00001" summary="person data class and finding the oldest one if we have the age data.">
       <created>1595867739757</created>
@@ -274,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597817997505</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="implementing an interface from companion object in person2.kt class">
+      <created>1597818599117</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1597818599117</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -317,7 +326,8 @@
     <MESSAGE value="writing the copy method for Client.kt class that returns the same Client that was created." />
     <MESSAGE value="companion object that likes static in java" />
     <MESSAGE value="Person.kt class that has one companion object and returns the instance of Person with name that given from that companion objects method" />
-    <option name="LAST_COMMIT_MESSAGE" value="Person.kt class that has one companion object and returns the instance of Person with name that given from that companion objects method" />
+    <MESSAGE value="implementing an interface from companion object in person2.kt class" />
+    <option name="LAST_COMMIT_MESSAGE" value="implementing an interface from companion object in person2.kt class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1597818364996">
@@ -328,14 +338,14 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="381" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.30.1536.834@0.30.1536.834" timestamp="1596097959749" />
-    <state x="548" y="99" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1597332829335">
+    <state x="548" y="99" width="453" height="695" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog" timestamp="1597819762543">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="548" y="99" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1597332829335" />
-    <state x="321" y="30" key="CommitChangelistDialog2" timestamp="1597817995091">
+    <state x="548" y="99" width="453" height="695" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1597819762543" />
+    <state x="0" y="30" key="CommitChangelistDialog2" timestamp="1597818597808">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="321" y="30" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1597817995091" />
+    <state x="0" y="30" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1597818597808" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1597817849670">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -364,10 +374,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1597655679792" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597818539162">
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597819797120">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1597818539162" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1597819797120" />
     <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1595870988920">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

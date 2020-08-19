@@ -1,4 +1,4 @@
-package root.main.Interface
+package root.main.classes.CompanionObjects
 
 interface JsonFactory<T> {
     fun fromJsonFactory(jsonString : String) : T

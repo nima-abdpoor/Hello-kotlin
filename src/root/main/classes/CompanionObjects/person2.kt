@@ -1,6 +1,4 @@
-package root.main.classes
-
-import root.main.Interface.JsonFactory
+package root.main.classes.CompanionObjects
 
 class person2 {
     companion object: JsonFactory<Person> {

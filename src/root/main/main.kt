@@ -1,12 +1,10 @@
 package root.main
 
-import root.main.Construcotr.Constructor
-import root.main.Construcotr.TwitterUser
-import root.main.Construcotr.User
 import root.main.Interface.Button
 import root.main.classes.*
+import root.main.classes.CompanionObjects.Person
 import java.lang.Exception
-import java.util.*
+
 fun click(){
     val button  = Button()
     button.click()
