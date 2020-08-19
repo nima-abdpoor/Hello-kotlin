@@ -19,7 +19,8 @@ fun click(){
      //getterandsetter()
      //toStringImplimentation()
      //equalsImplimentation()
-     CopyOfClass()
+     //CopyOfClass()
+     companionobject()
 
 
 //     val inner = Outer.inner
@@ -217,6 +218,10 @@ fun click(){
     var reg =  regex()
     reg.split("12.345-6.A")
 
+}
+
+fun companionobject() {
+     A.foo()
 }
 
 fun CopyOfClass() {
