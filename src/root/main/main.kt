@@ -18,7 +18,8 @@ fun click(){
      //toStringImplimentation()
      //equalsImplimentation()
      //CopyOfClass()
-     companionobject()
+     //companionobject()
+     lambdaExpressions()
 
 
 //     val inner = Outer.inner
@@ -216,6 +217,12 @@ fun click(){
     var reg =  regex()
     reg.split("12.345-6.A")
 
+}
+
+fun lambdaExpressions() {
+    val mypersonslist = listOf<root.lambda.Person>(root.lambda.Person("nima",20),
+        root.lambda.Person("AHMAD",63))
+    println(mypersonslist.maxBy { it.age })
 }
 
 fun companionobject() {
