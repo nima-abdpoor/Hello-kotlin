@@ -19,7 +19,9 @@ fun click(){
      //equalsImplimentation()
      //CopyOfClass()
      //companionobject()
-     lambdaExpressions()
+     //lambdaExpressions()
+     val errors = listOf<String>("404 Not Found", "403 Forbidden")
+     printMessgeWithPrefix(errors,"error")
 
 
 //     val inner = Outer.inner
@@ -219,10 +221,20 @@ fun click(){
 
 }
 
+fun printMessgeWithPrefix(message :Collection<String> ,prefix: String ) {
+    message.forEach { a -> println("$prefix $a") }
+}
+
 fun lambdaExpressions() {
     val mypersonslist = listOf<root.lambda.Person>(root.lambda.Person("nima",20),
         root.lambda.Person("AHMAD",63))
     println(mypersonslist.maxBy { it.age })
+    println(mypersonslist.maxBy { p:root.lambda.Person -> p.age })
+    println(mypersonslist.map { P:root.lambda.Person -> P.age })
+    val sum  ={x : Double,y :Double -> (x+y)/(x+2*y)}
+    println(sum(1.0,2.0))
+    
+
 }
 
 fun companionobject() {

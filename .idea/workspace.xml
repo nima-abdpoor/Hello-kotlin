@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="704d161b-c5cd-42c6-8323-1296cd2bd253" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/root/lambda/Person.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/root/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main/main.kt" afterDir="false" />
     </list>
@@ -113,7 +111,7 @@
       <workItem from="1597655638534" duration="3346000" />
       <workItem from="1597729577618" duration="6558000" />
       <workItem from="1597816318077" duration="4920000" />
-      <workItem from="1597900659800" duration="1252000" />
+      <workItem from="1597900659800" duration="5092000" />
     </task>
     <task id="LOCAL-00001" summary="person data class and finding the oldest one if we have the age data.">
       <created>1595867739757</created>
@@ -290,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597819866575</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="1.starting lambda expressions.&#10;2.working with maxby function that is in Collections class">
+      <created>1597902789296</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1597902789296</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,7 +315,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="person data class and finding the oldest one if we have the age data." />
     <MESSAGE value="function" />
     <MESSAGE value="combination of variables and function" />
     <MESSAGE value="Class definition" />
@@ -335,7 +339,8 @@
     <MESSAGE value="Person.kt class that has one companion object and returns the instance of Person with name that given from that companion objects method" />
     <MESSAGE value="implementing an interface from companion object in person2.kt class" />
     <MESSAGE value="putting classes and interfaces that are related to companion object in a single package" />
-    <option name="LAST_COMMIT_MESSAGE" value="putting classes and interfaces that are related to companion object in a single package" />
+    <MESSAGE value="1.starting lambda expressions.&#10;2.working with maxby function that is in Collections class" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.starting lambda expressions.&#10;2.working with maxby function that is in Collections class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1597818364996">
@@ -350,26 +355,26 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="548" y="99" width="453" height="695" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1597819762543" />
-    <state x="0" y="30" key="CommitChangelistDialog2" timestamp="1597819865076">
+    <state x="0" y="30" key="CommitChangelistDialog2" timestamp="1597902786808">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="0" y="30" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1597819865076" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1597830383762">
+    <state x="0" y="30" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1597902786808" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1597907599856">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1597830383762" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1597830383761">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1597907599856" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1597907599856">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1597830383761" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1597830383760">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1597907599856" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1597907599856">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1597830383760" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1597830383761">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1597907599856" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1597907599856">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1597830383761" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1597907599856" />
     <state x="277" y="89" key="SettingsEditor" timestamp="1589903722302">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -382,10 +387,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1597900740282" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597902710582">
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1597907604950">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1597902710582" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1597907604950" />
     <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1595870988920">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
