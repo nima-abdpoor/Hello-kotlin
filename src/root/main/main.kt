@@ -226,7 +226,8 @@ fun click(){
 fun lamda() {
     val lambda = Functional()
     //lambda.function()
-    lambda.groupby()
+    //lambda.groupby()
+    lambda.flatmap()
 }
 
 fun printMessgeWithPrefix(message :Collection<String> ,prefix: String ) {
