@@ -1,5 +1,6 @@
 package root.main
 
+import root.lambda.Functional
 import root.main.Interface.Button
 import root.main.classes.*
 import root.main.classes.CompanionObjects.Person
@@ -20,8 +21,9 @@ fun click(){
      //CopyOfClass()
      //companionobject()
      //lambdaExpressions()
-     val errors = listOf<String>("404 Not Found", "403 Forbidden")
-     printMessgeWithPrefix(errors,"error")
+//     val errors = listOf<String>("404 Not Found", "403 Forbidden")
+//     printMessgeWithPrefix(errors,"error")
+     lamda()
 
 
 //     val inner = Outer.inner
@@ -200,25 +202,30 @@ fun click(){
         }
 
     //println(division(1,0))
-    fun <T> Collection<T>.JoinToString(
-        separator: String
-        , prefix: String = ""
-        ,postfix: String = ""
-    ) :String {
-        val result = StringBuilder(prefix)
-        for((index,element) in this.withIndex()){
-            if (index>0) result.append(separator)
-            result.append(element)
-        }
-        result.append(postfix)
-        return result.toString()
-    }
+//    fun <T> Collection<T>.JoinToString(
+//        separator: String
+//        , prefix: String = ""
+//        ,postfix: String = ""
+//    ) :String {
+//        val result = StringBuilder(prefix)
+//        for((index,element) in this.withIndex()){
+//            if (index>0) result.append(separator)
+//            result.append(element)
+//        }
+//        result.append(postfix)
+//        return result.toString()
+//    }
     val mylist = arrayListOf<Int>(1,2,3)
 //    println(mylist)
 //    println(mylist.JoinToString("_","Start: "," Finished!"))
-    var reg =  regex()
-    reg.split("12.345-6.A")
+//    var reg =  regex()
+//    reg.split("12.345-6.A")
 
+}
+
+fun lamda() {
+    val lambda = Functional()
+    lambda.function()
 }
 
 fun printMessgeWithPrefix(message :Collection<String> ,prefix: String ) {
