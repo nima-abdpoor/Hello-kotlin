@@ -1,5 +1,6 @@
 package root.main
 
+import root.lambda.DifferenceOfSequenceAndTerminal
 import root.lambda.Functional
 import root.main.Interface.Button
 import root.main.classes.*
@@ -23,7 +24,8 @@ fun click(){
      //lambdaExpressions()
 //     val errors = listOf<String>("404 Not Found", "403 Forbidden")
 //     printMessgeWithPrefix(errors,"error")
-     lamda()
+     //lamda()
+     defferentbetweensequenceandterminal()
 
 
 //     val inner = Outer.inner
@@ -221,6 +223,12 @@ fun click(){
 //    var reg =  regex()
 //    reg.split("12.345-6.A")
 
+}
+
+fun defferentbetweensequenceandterminal() {
+    val dif = DifferenceOfSequenceAndTerminal()
+    dif.sequence()
+    dif.terminal()
 }
 
 fun lamda() {

@@ -16,6 +16,7 @@ class Functional {
 
     fun groupby() {
         println(people
+            .asSequence()
             .groupBy { it.name.first().equals('m') || it.name.first().equals('n') }
             .map { it.value.get(0) })
 

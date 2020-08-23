@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="704d161b-c5cd-42c6-8323-1296cd2bd253" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/root/lambda/Books.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/root/lambda/DifferenceOfSequenceAndTerminal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/root/lambda/Functional.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/lambda/Functional.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/root/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main/main.kt" afterDir="false" />
     </list>
@@ -113,7 +114,8 @@
       <workItem from="1597729577618" duration="6558000" />
       <workItem from="1597816318077" duration="4920000" />
       <workItem from="1597900659800" duration="5464000" />
-      <workItem from="1598075874596" duration="3641000" />
+      <workItem from="1598075874596" duration="5104000" />
+      <workItem from="1598183541673" duration="2479000" />
     </task>
     <task id="LOCAL-00001" summary="person data class and finding the oldest one if we have the age data.">
       <created>1595867739757</created>
@@ -318,7 +320,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598079300044</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="flatmap()&#10;like merge sort :)">
+      <created>1598080088735</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1598080088735</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +347,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="enum class and when expression" />
     <MESSAGE value="while and do while&#10;for loop&#10;in and !in &#10;combination of in and when" />
     <MESSAGE value="Exception Handling" />
     <MESSAGE value="making functions easier to read" />
@@ -363,7 +371,8 @@
     <MESSAGE value="the usage of map, collections and member reference combination." />
     <MESSAGE value="working with map,filter,find,all,count,any ,... in lambda expressions." />
     <MESSAGE value="groupBy()" />
-    <option name="LAST_COMMIT_MESSAGE" value="groupBy()" />
+    <MESSAGE value="flatmap()&#10;like merge sort :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="flatmap()&#10;like merge sort :)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1597818364996">
@@ -378,45 +387,45 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="548" y="99" width="453" height="695" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1597819762543" />
-    <state x="389" y="30" width="898" height="834" key="CommitChangelistDialog2" timestamp="1598079297935">
+    <state x="389" y="30" width="898" height="834" key="CommitChangelistDialog2" timestamp="1598080086767">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="389" y="30" width="898" height="834" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1598079297935" />
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1598080021136">
+    <state x="389" y="30" width="898" height="834" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1598080086767" />
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1598186494842">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1598080021136" />
-    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1598080021136">
+    <state width="1493" height="213" key="GridCell.Tab.0.bottom/0.30.1536.834@0.30.1536.834" timestamp="1598186494842" />
+    <state width="1493" height="213" key="GridCell.Tab.0.center" timestamp="1598186494842">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1598080021136" />
-    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1598080021135">
+    <state width="1493" height="213" key="GridCell.Tab.0.center/0.30.1536.834@0.30.1536.834" timestamp="1598186494842" />
+    <state width="1493" height="213" key="GridCell.Tab.0.left" timestamp="1598186494842">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1598080021135" />
-    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1598080021136">
+    <state width="1493" height="213" key="GridCell.Tab.0.left/0.30.1536.834@0.30.1536.834" timestamp="1598186494842" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right" timestamp="1598186494842">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1598080021136" />
+    <state width="1493" height="213" key="GridCell.Tab.0.right/0.30.1536.834@0.30.1536.834" timestamp="1598186494842" />
     <state x="277" y="89" key="SettingsEditor" timestamp="1589903722302">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="277" y="89" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1589903722302" />
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1597907930660">
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1598080656794">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1597907930660" />
-    <state x="460" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1597900740282">
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1598080656794" />
+    <state x="460" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1598183578752">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1597900740282" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598080046317">
+    <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1598183578752" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598186521189">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1598080046317" />
-    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1595870988920">
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1598186521189" />
+    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup" timestamp="1598183593219">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup/0.30.1536.834@0.30.1536.834" timestamp="1595870988920" />
+    <state x="431" y="186" width="672" height="678" key="search.everywhere.popup/0.30.1536.834@0.30.1536.834" timestamp="1598183593219" />
   </component>
 </project>
