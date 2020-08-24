@@ -229,7 +229,8 @@ fun click(){
 
 fun applyAndWithInLambda() {
     val alphabet = Alphabet()
-    println(alphabet.alphabetWith())
+//    println(alphabet.alphabetWith())
+    println(alphabet.alphabetApply())
 }
 
 fun defferentbetweensequenceandterminal() {
