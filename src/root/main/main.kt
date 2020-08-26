@@ -19,7 +19,7 @@ fun click(){
      //abstractpropert()
      //getterandsetter()
      //toStringImplimentation()
-     //equalsImplimentation()
+     equalsImplimentation()
      //CopyOfClass()
      //companionobject()
      //lambdaExpressions()
@@ -27,7 +27,7 @@ fun click(){
 //     printMessgeWithPrefix(errors,"error")
      //lamda()
      //defferentbetweensequenceandterminal()
-     applyAndWithInLambda()
+     //applyAndWithInLambda()
 
 
 //     val inner = Outer.inner
