@@ -1,59 +1,41 @@
-package root.android;
+package root.android
 
-import java.util.ArrayList;
-import java.util.List;
+object Repository {
 
-public class Repository {
-    private static Repository INSTANCE = null;
-
-    private List<User> users = null;
-
-    public static Repository getInstance() {
-        if (INSTANCE == null) {
-            synchronized (Repository.class) {
-                if (INSTANCE == null) {
-                    INSTANCE = new Repository();
-                }
-            }
-        }
-        return INSTANCE;
+    private var users: MutableList<User>? = null
+    fun getUsers(): List<User>? {
+        return users
     }
+
+    val formattedUserNames: List<String>
+        get() {
+            val userNames: MutableList<String> =
+                ArrayList(users!!.size)
+            for (user in users!!) {
+                var name: String = if (user!!.lastName != null) {
+                    if (user!!.firstName != null) {
+                        user!!.firstName + " " + user!!.lastName
+                    } else {
+                        user!!.lastName!!
+                    }
+                } else if (user!!.firstName != null) {
+                    user!!.firstName!!
+                } else {
+                    "Unknown"
+                }
+                userNames.add(name)
+            }
+            return userNames
+        }
 
     // keeping the constructor private to enforce the usage of getInstance
-    private Repository() {
-
-        User user1 = new User("Jane", "");
-        User user2 = new User("John", null);
-        User user3 = new User("Anne", "Doe");
-
-        users = new ArrayList();
-        users.add(user1);
-        users.add(user2);
-        users.add(user3);
-    }
-
-    public List<User> getUsers() {
-        return users;
-    }
-
-    public List<String> getFormattedUserNames() {
-        List<String> userNames = new ArrayList<>(users.size());
-        for (User user : users) {
-            String name;
-
-            if (user.getLastName() != null) {
-                if (user.getFirstName() != null) {
-                    name = user.getFirstName() + " " + user.getLastName();
-                } else {
-                    name = user.getLastName();
-                }
-            } else if (user.getFirstName() != null) {
-                name = user.getFirstName();
-            } else {
-                name = "Unknown";
-            }
-            userNames.add(name);
-        }
-        return userNames;
+    init {
+        val user1 = User("Jane", "")
+        val user2 = User("John", null)
+        val user3 = User("Anne", "Doe")
+        users = ArrayList()
+        (users as ArrayList<User>).add(user1)
+        (users as ArrayList<User>).add(user2)
+        (users as ArrayList<User>).add(user3)
     }
 }

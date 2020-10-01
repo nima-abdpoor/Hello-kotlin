@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="704d161b-c5cd-42c6-8323-1296cd2bd253" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/root/android/Repository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/root/android/User.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/root/android/Repository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/main/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testkotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testkotlin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/android/Repository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +126,7 @@
       <workItem from="1598337042864" duration="2449000" />
       <workItem from="1598420042483" duration="2648000" />
       <workItem from="1601477798447" duration="648000" />
-      <workItem from="1601530904800" duration="354000" />
+      <workItem from="1601530904800" duration="1841000" />
     </task>
     <task id="LOCAL-00001" summary="person data class and finding the oldest one if we have the age data.">
       <created>1595867739757</created>
@@ -367,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598421575082</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="declaring nullablity val and var">
+      <created>1601531429443</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1601531429444</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -387,7 +393,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="usage of regex.java :|" />
     <MESSAGE value="working with interface and multiple implementing from an interface and overriding same method." />
     <MESSAGE value="access modifiers in kotlin" />
     <MESSAGE value="nested and inner classes" />
@@ -412,7 +417,8 @@
     <MESSAGE value="using with for returning lambda expressions." />
     <MESSAGE value="using apply for returning lambda expressions." />
     <MESSAGE value="safe cast with &quot;as?&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="safe cast with &quot;as?&quot;" />
+    <MESSAGE value="declaring nullablity val and var" />
+    <option name="LAST_COMMIT_MESSAGE" value="declaring nullablity val and var" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1597818364996">
@@ -427,10 +433,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="548" y="99" width="453" height="695" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1597819762543" />
-    <state x="389" y="30" width="898" height="834" key="CommitChangelistDialog2" timestamp="1598421569460">
+    <state x="389" y="30" width="898" height="834" key="CommitChangelistDialog2" timestamp="1601531426175">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="389" y="30" width="898" height="834" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1598421569460" />
+    <state x="389" y="30" width="898" height="834" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1601531426175" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1598423212048">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -463,10 +469,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="490" y="340" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.30.1536.834@0.30.1536.834" timestamp="1601478117299" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601531356690">
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601532768835">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1601531356690" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1601532768835" />
     <state x="393" y="144" width="749" height="606" key="find.popup" timestamp="1598420500897">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

@@ -1,5 +1,6 @@
 package root
 
+import root.android.Repository
 import root.android.User
 import root.lambda.Alphabet
 import root.lambda.DifferenceOfSequenceAndTerminal
@@ -16,7 +17,8 @@ fun click(){
 }
  fun main(args: Array<String>) {
      //mainForKotlinInAction()
-
+     val user = User(firstName = null,lastName = null)
+     val repository = Repository.formattedUserNames
 }
 
 fun mainForKotlinInAction() {
