@@ -1,5 +1,6 @@
-package root.main
+package root
 
+import root.android.User
 import root.lambda.Alphabet
 import root.lambda.DifferenceOfSequenceAndTerminal
 import root.lambda.Functional
@@ -14,20 +15,25 @@ fun click(){
     button.showOff()
 }
  fun main(args: Array<String>) {
+     //mainForKotlinInAction()
+
+}
+
+fun mainForKotlinInAction() {
     //click()
-     //Construcotr()
-     //abstractpropert()
-     //getterandsetter()
-     //toStringImplimentation()
-     equalsImplimentation()
-     //CopyOfClass()
-     //companionobject()
-     //lambdaExpressions()
+    //Construcotr()
+    //abstractpropert()
+    //getterandsetter()
+    //toStringImplimentation()
+    equalsImplimentation()
+    //CopyOfClass()
+    //companionobject()
+    //lambdaExpressions()
 //     val errors = listOf<String>("404 Not Found", "403 Forbidden")
 //     printMessgeWithPrefix(errors,"error")
-     //lamda()
-     //defferentbetweensequenceandterminal()
-     //applyAndWithInLambda()
+    //lamda()
+    //defferentbetweensequenceandterminal()
+    //applyAndWithInLambda()
 
 
 //     val inner = Outer.inner
@@ -86,9 +92,9 @@ fun click(){
 //    println("Hello, ${sayHello("nima\n\n")}")
 //    println("Hello, ${sayHello("kotlin\n")}\n${sayHello()}")
 
-//    val root.main.person = root.main.person("nima",false)
-//    println(root.main.person.name)
-//    println(root.main.person.ismarried)
+//    val root.person = root.person("nima",false)
+//    println(root.person.name)
+//    println(root.person.ismarried)
 
     val Rectangle = Rectangle(20, 21)
     //println(Rectangle.isSquare)
@@ -251,13 +257,13 @@ fun printMessgeWithPrefix(message :Collection<String> ,prefix: String ) {
 }
 
 fun lambdaExpressions() {
-    val mypersonslist = listOf<root.lambda.Person>(root.lambda.Person("nima",20),
-        root.lambda.Person("AHMAD",63))
-    println(mypersonslist.maxBy { it.age })
-    println(mypersonslist.maxBy { p:root.lambda.Person -> p.age })
-    println(mypersonslist.map { P:root.lambda.Person -> P.age })
-    val sum  ={x : Double,y :Double -> (x+y)/(x+2*y)}
-    println(sum(1.0,2.0))
+//    val mypersonslist = listOf<root.lambda.Person>(root.lambda.Person("nima",20),
+//        root.lambda.Person("AHMAD",63))
+//    println(mypersonslist.maxBy { it.age })
+//    println(mypersonslist.maxBy { p:root.lambda.Person -> p.age })
+//    println(mypersonslist.map { P:root.lambda.Person -> P.age })
+//    val sum  ={x : Double,y :Double -> (x+y)/(x+2*y)}
+//    println(sum(1.0,2.0))
     
 
 }
