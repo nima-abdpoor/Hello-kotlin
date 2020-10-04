@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="704d161b-c5cd-42c6-8323-1296cd2bd253" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/root/android/Repository.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/android/Repository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +123,8 @@
       <workItem from="1598337042864" duration="2449000" />
       <workItem from="1598420042483" duration="2648000" />
       <workItem from="1601477798447" duration="648000" />
-      <workItem from="1601530904800" duration="1841000" />
+      <workItem from="1601530904800" duration="3544000" />
+      <workItem from="1601819017845" duration="608000" />
     </task>
     <task id="LOCAL-00001" summary="person data class and finding the oldest one if we have the age data.">
       <created>1595867739757</created>
@@ -373,7 +371,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601531429444</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="Object initialization, companion object and singletons">
+      <created>1601532801080</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1601532801080</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,7 +398,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="working with interface and multiple implementing from an interface and overriding same method." />
     <MESSAGE value="access modifiers in kotlin" />
     <MESSAGE value="nested and inner classes" />
     <MESSAGE value="usage of sealed modifier and restrict possibility of subclasses." />
@@ -418,7 +422,8 @@
     <MESSAGE value="using apply for returning lambda expressions." />
     <MESSAGE value="safe cast with &quot;as?&quot;" />
     <MESSAGE value="declaring nullablity val and var" />
-    <option name="LAST_COMMIT_MESSAGE" value="declaring nullablity val and var" />
+    <MESSAGE value="Object initialization, companion object and singletons" />
+    <option name="LAST_COMMIT_MESSAGE" value="Object initialization, companion object and singletons" />
   </component>
   <component name="WindowStateProjectService">
     <state x="557" y="163" key="#com.intellij.ide.util.MemberChooser" timestamp="1597818364996">
@@ -433,10 +438,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="548" y="99" width="453" height="695" key="#org.jetbrains.kotlin.idea.refactoring.move.moveDeclarations.ui.MoveKotlinTopLevelDeclarationsDialog/0.30.1536.834@0.30.1536.834" timestamp="1597819762543" />
-    <state x="389" y="30" width="898" height="834" key="CommitChangelistDialog2" timestamp="1601531426175">
+    <state x="389" y="30" width="898" height="834" key="CommitChangelistDialog2" timestamp="1601532796177">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="389" y="30" width="898" height="834" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1601531426175" />
+    <state x="389" y="30" width="898" height="834" key="CommitChangelistDialog2/0.30.1536.834@0.30.1536.834" timestamp="1601532796177" />
     <state width="1493" height="213" key="GridCell.Tab.0.bottom" timestamp="1598423212048">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
@@ -457,14 +462,14 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="265" y="69" key="SettingsEditor/0.30.1536.834@0.30.1536.834" timestamp="1598420647136" />
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1598423143252">
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2" timestamp="1601820032931">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1598423143252" />
-    <state x="460" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1601530996775">
+    <state x="361" y="180" key="Vcs.Push.Dialog.v2/0.30.1536.834@0.30.1536.834" timestamp="1601820032931" />
+    <state x="460" y="271" key="com.intellij.ide.util.TipDialog" timestamp="1601820016133">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1601530996775" />
+    <state x="460" y="271" key="com.intellij.ide.util.TipDialog/0.30.1536.834@0.30.1536.834" timestamp="1601820016133" />
     <state x="490" y="340" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1601478117299">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
