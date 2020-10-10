@@ -3,7 +3,42 @@
   <component name="ChangeListManager">
     <list default="true" id="704d161b-c5cd-42c6-8323-1296cd2bd253" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/Root.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/Root.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/android/Repository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/android/Repository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/android/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/android/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/class2/class2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/class2/class2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/lambda/Alphabet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/lambda/Alphabet.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/lambda/Books.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/lambda/Books.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/lambda/DifferenceOfSequenceAndTerminal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/lambda/DifferenceOfSequenceAndTerminal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/lambda/Functional.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/lambda/Functional.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/lambda/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/lambda/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/Construcotr/Constructor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/Construcotr/Constructor.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/Construcotr/MyButton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/Construcotr/MyButton.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/Construcotr/TwitterUser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/Construcotr/TwitterUser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/Construcotr/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/Construcotr/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/Construcotr/View.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/Construcotr/View.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/Construcotr/privateCost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/Construcotr/privateCost.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/Interface/Button.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/Interface/Button.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/Interface/Clickable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/Interface/Clickable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/Interface/Focusable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/Interface/Focusable.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/Interface/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/Interface/User.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/A.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/A.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/ACB.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/ACB.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/B.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/B.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/C.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/C.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/Client.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/CompanionObjects/JsonFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/CompanionObjects/JsonFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/CompanionObjects/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/CompanionObjects/Person.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/CompanionObjects/person2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/CompanionObjects/person2.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/Expr.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/Expr.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/F.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/F.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/FacebookUser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/FacebookUser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/G.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/G.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/InternalClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/InternalClass.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/LengthCounter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/LengthCounter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/Outer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/Outer.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/classes/PrivateUser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/classes/PrivateUser.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/root/main/regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/root/excersice/main/regex.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +169,7 @@
       <workItem from="1601477798447" duration="648000" />
       <workItem from="1601530904800" duration="3544000" />
       <workItem from="1601819017845" duration="5126000" />
-      <workItem from="1602316950578" duration="299000" />
+      <workItem from="1602316950578" duration="1494000" />
     </task>
     <task id="LOCAL-00001" summary="person data class and finding the oldest one if we have the age data.">
       <created>1595867739757</created>
@@ -491,10 +526,10 @@
       <screen x="0" y="30" width="1536" height="834" />
     </state>
     <state x="490" y="340" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.30.1536.834@0.30.1536.834" timestamp="1601478117299" />
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602317331564">
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602318727829">
       <screen x="0" y="30" width="1536" height="834" />
     </state>
-    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1602317331564" />
+    <state x="573" y="364" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.30.1536.834@0.30.1536.834" timestamp="1602318727829" />
     <state x="393" y="144" width="749" height="606" key="find.popup" timestamp="1598420500897">
       <screen x="0" y="30" width="1536" height="834" />
     </state>

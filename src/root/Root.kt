@@ -1,6 +1,6 @@
 package root
 
-import root.main.classes.InternalClass
+import root.excersice.main.classes.InternalClass
 
 class root {
     fun root(){
