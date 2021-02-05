@@ -1,18 +1,13 @@
-import java.lang.ArithmeticException
-
 fun main() {
-    val num = 10
-    main2 { number, string ->
-        (number) ?: string
-    }
-}
 
-private fun main2(function: (s: String?, s2: String) -> String) {
-    try {
-        val result = function.invoke(null, "message")
-        println(result)
-    } catch (e: ArithmeticException) {
-        println("this error happened just now : ${e.message}")
-    }
-    //this is the best IDE
+    val sum1 = {x : Int , y : Int -> x+y}
+    val sum2 : (Int, Int) -> Int = {x,y -> x+y }
+
+    val action1 ={ println("done!")}
+    val action2 : () -> Unit = { println("done!")}
+
+    action1.invoke()
+    println(sum1(10,20))
+    println(sum2(10,20))
+    action2.invoke()
 }
