@@ -1,13 +1,16 @@
 fun main() {
+    val url  = "https://nima.com"
+    performRequest(url){code , content ->
+        println("the code is $code and the content is $content")
+    }
+}
+fun performRequest(
+    url : String,
+    callback: (Int, String) -> Unit = { code : Int, content : String -> Boolean}
+){
+    callback.invoke(getData(url),"this the content")
+}
 
-    val sum1 = {x : Int , y : Int -> x+y}
-    val sum2 : (Int, Int) -> Int = {x,y -> x+y }
-
-    val action1 ={ println("done!")}
-    val action2 : () -> Unit = { println("done!")}
-
-    action1.invoke()
-    println(sum1(10,20))
-    println(sum2(10,20))
-    action2.invoke()
+fun getData(url :String):Int{
+    return url.length
 }
