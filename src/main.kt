@@ -1,20 +1,22 @@
-import kotlinx.coroutines.channels.Channel
-import kotlinx.coroutines.launch
+import kotlinx.coroutines.CoroutineScope
+import kotlinx.coroutines.cancelChildren
+import kotlinx.coroutines.channels.produce
 import kotlinx.coroutines.runBlocking
 
 
-fun main() = runBlocking{
-    val channel  = Channel<Int>()
-   launch{
-        for ( x in 1..5){
-            channel.send(x*x)
-        }
-       channel.close()
-   }
-    launch {
-        for ( y in 1..6){
-            println(channel.receive())
-        }
+fun CoroutineScope.produceSquares(number: Int) = produce {
+    var n = number
+    while (true) {
+        n++
+        this.send(n)
     }
+}
+
+fun main() = runBlocking {
+    val square = produceSquares(1)
+    repeat(5){
+        println(square.receive())
+    }
+    coroutineContext.cancelChildren()
     println("done!")
 }
