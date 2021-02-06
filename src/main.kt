@@ -1,16 +1,20 @@
-fun main() {
-    val url  = "https://nima.com"
-    performRequest(url){code , content ->
-        println("the code is $code and the content is $content")
-    }
-}
-fun performRequest(
-    url : String,
-    callback: (Int, String) -> Unit = { code : Int, content : String -> Boolean}
-){
-    callback.invoke(getData(url),"this the content")
-}
+import kotlinx.coroutines.channels.Channel
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
 
-fun getData(url :String):Int{
-    return url.length
+
+fun main() = runBlocking{
+    val channel  = Channel<Int>()
+   launch{
+        for ( x in 1..5){
+            channel.send(x*x)
+        }
+       channel.close()
+   }
+    launch {
+        for ( y in 1..6){
+            println(channel.receive())
+        }
+    }
+    println("done!")
 }
