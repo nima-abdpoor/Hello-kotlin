@@ -1,116 +1,64 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="704d161b-c5cd-42c6-8323-1296cd2bd253" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/root/main.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/kotlinc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/kotlinc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/root/higherOrderFunciton/HigherOrderFun.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/META-INF/testkotlin.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/Regex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/Collections.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/Color.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/JoinToString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/MainKt$main$lambda$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/MainKt$mainForKotlinInAction$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/MainKt$mainForKotlinInAction$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/MainKt$mainForKotlinInAction$3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/MainKt$mainForKotlinInAction$4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/MainKt$mainForKotlinInAction$5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/MainKt$mainForKotlinInAction$6.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/MainKt$mainForKotlinInAction$7.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/MainKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/Rectangle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/android/Repository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/android/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/class2/class2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/lambda/Alphabet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/lambda/Books.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/lambda/DifferenceOfSequenceAndTerminal$sequence$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/lambda/DifferenceOfSequenceAndTerminal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/lambda/Functional$club27$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/lambda/Functional.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/lambda/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/Construcotr/Constructor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/Construcotr/MyButton.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/Construcotr/TwitterUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/Construcotr/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/Construcotr/View.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/Construcotr/privateCost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/Interface/Button.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/Interface/Clickable$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/Interface/Clickable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/Interface/Focusable$DefaultImpls.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/Interface/Focusable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/Interface/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/A$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/A.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/B.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/C.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/CompanionObjects/JsonFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/CompanionObjects/Person$Loader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/CompanionObjects/Person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/CompanionObjects/person2$Companion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/CompanionObjects/person2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/D.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/E.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/Expr$Num.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/Expr$Sum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/Expr.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/ExprKt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/F.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/FacebookUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/G.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/InternalClass.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/LengthCounter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/Outer$inner.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/Outer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/classes/PrivateUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/main/regex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/person.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/testkotlin/root/root.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Regex.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Regex.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/Root.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/Root.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/android/Repository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/android/Repository.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/android/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/android/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/class2/class2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/class2/class2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/lambda/Alphabet.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/lambda/Alphabet.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/lambda/Books.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/lambda/Books.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/lambda/DifferenceOfSequenceAndTerminal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/lambda/DifferenceOfSequenceAndTerminal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/lambda/Functional.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/lambda/Functional.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/lambda/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/lambda/Person.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/Construcotr/Constructor.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/Construcotr/Constructor.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/Construcotr/MyButton.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/Construcotr/MyButton.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/Construcotr/TwitterUser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/Construcotr/TwitterUser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/Construcotr/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/Construcotr/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/Construcotr/View.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/Construcotr/View.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/Construcotr/privateCost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/Construcotr/privateCost.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/Interface/Button.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/Interface/Button.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/Interface/Clickable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/Interface/Clickable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/Interface/Focusable.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/Interface/Focusable.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/Interface/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/Interface/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/A.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/A.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/ACB.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/ACB.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/B.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/B.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/C.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/C.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/Client.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/Client.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/CompanionObjects/JsonFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/CompanionObjects/JsonFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/CompanionObjects/Person.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/CompanionObjects/Person.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/CompanionObjects/person2.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/CompanionObjects/person2.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/Expr.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/Expr.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/F.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/F.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/FacebookUser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/FacebookUser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/G.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/G.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/InternalClass.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/InternalClass.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/LengthCounter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/LengthCounter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/Outer.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/Outer.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/classes/PrivateUser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/classes/PrivateUser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/excersice/main/regex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/excersice/main/regex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/root/main.kt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testkotlin.iml" beforeDir="false" afterPath="$PROJECT_DIR$/testkotlin.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/root/main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/root/main.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/testkotlin.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/testkotlin.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Regex.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Regex.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/MainKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/MainKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/android/Repository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/android/Repository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/android/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/android/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/class2/class2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/class2/class2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/lambda/Alphabet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/lambda/Alphabet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/lambda/Books.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/lambda/Books.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/lambda/DifferenceOfSequenceAndTerminal$sequence$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/lambda/DifferenceOfSequenceAndTerminal$sequence$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/lambda/DifferenceOfSequenceAndTerminal.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/lambda/DifferenceOfSequenceAndTerminal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/lambda/Functional$club27$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/lambda/Functional$club27$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/lambda/Functional.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/lambda/Functional.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/lambda/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/lambda/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/Construcotr/Constructor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/Construcotr/Constructor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/Construcotr/MyButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/Construcotr/MyButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/Construcotr/TwitterUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/Construcotr/TwitterUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/Construcotr/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/Construcotr/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/Construcotr/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/Construcotr/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/Construcotr/privateCost.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/Construcotr/privateCost.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/Interface/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/Interface/Button.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/Interface/Clickable$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/Interface/Clickable$DefaultImpls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/Interface/Clickable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/Interface/Clickable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/Interface/Focusable$DefaultImpls.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/Interface/Focusable$DefaultImpls.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/Interface/Focusable.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/Interface/Focusable.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/Interface/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/Interface/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/A$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/A$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/CompanionObjects/JsonFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/CompanionObjects/JsonFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/CompanionObjects/Person$Loader.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/CompanionObjects/Person$Loader.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/CompanionObjects/Person.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/CompanionObjects/Person.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/CompanionObjects/person2$Companion.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/CompanionObjects/person2$Companion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/CompanionObjects/person2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/CompanionObjects/person2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/D.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/E.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/E.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/Expr$Num.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/Expr$Num.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/Expr$Sum.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/Expr$Sum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/Expr.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/Expr.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/ExprKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/ExprKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/F.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/F.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/FacebookUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/FacebookUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/G.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/G.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/InternalClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/InternalClass.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/LengthCounter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/LengthCounter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/Outer$inner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/Outer$inner.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/Outer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/Outer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/PrivateUser.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/excersice/main/classes/PrivateUser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/root/root.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/root/root.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,8 +70,8 @@
       <list>
         <option value="Kotlin File" />
         <option value="Kotlin Interface" />
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -139,7 +87,6 @@
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -150,7 +97,6 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -158,6 +104,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -203,10 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.MainKt" />
+        <item itemvalue="Application.MainKt" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -529,13 +477,12 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="nested and inner classes" />

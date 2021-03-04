@@ -1,8 +1,14 @@
 package root
+import root.higherOrderFunciton.HigherOrderFun
 import kotlin.system.measureTimeMillis
 
 
 fun main(args: Array<String>) {
+    //fun1()
+    val h1 = HigherOrderFun()
+}
+
+fun fun1() {
     var result: Long
     var size = 20_000_000
     val array = IntArray(size + 1)
